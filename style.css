@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-height: 100dvh;
+    background-color: black;
+    color: white;
+}
+
+.url_box {
+    width: 31rem;
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.073);
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.594);
+    gap: 4px;
+}
+
+.download_box{
+    width: 31rem;
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.073);
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.594);
+    gap: 5px;
+}
+
+h4{
+    font: 1em sans-serif ;
+    color: rgb(158, 156, 156);
+    padding: 2px;
+    width: 94%;
+}
+
+.url_box div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 2px;
+    width: 94%;
+    border-radius: 10px;
+}
+
+.url_box div input{
+    border-style: none;
+    outline: none;
+    flex-grow: 1;
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+}
+
+button{
+    width: 94%;
+    padding: 9px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: medium;
+    color: gray;
+    background-color: rgba(255, 255, 255, 0.068);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+a{
+    width: 94%;
+    padding: 9px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: medium;
+    color: gray;
+    background-color: rgba(255, 255, 255, 0.068);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+.hidden{
+    display: none;
+}

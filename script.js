@@ -15,7 +15,7 @@ const HandleClick = async () => {
         alert("Input Field Should Have Valid Data")
         return
     }
-    let url = 'http://127.0.0.1:8000/download'
+    let url = 'https://fast-api-pied-one.vercel.app/download'
 
     try {
         button.disabled = true

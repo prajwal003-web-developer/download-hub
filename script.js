@@ -42,6 +42,7 @@ const HandleClick = async () => {
         const parent = document.getElementById('link_Box')
         a.classList.add("font-semibold" ,"w-full", "p-2","text-center")
         parent.appendChild(a)
+        location.href = retData.url
 
     } catch (error) {
         box.classList.remove("border-blue-600" , 'border-green-600')
